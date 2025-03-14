@@ -61,7 +61,6 @@ body {
   height: 2.5em;
   padding: 0;
   transition: transform 0.3s ease;
-  filter: brightness(0);
 }
 
 .logo:hover {
@@ -336,7 +335,6 @@ footer {
   height: 2em;
   opacity: 0.8;
   transition: opacity 0.3s ease;
-  filter: brightness(0);
 }
 
 .footer-logos img:hover {
