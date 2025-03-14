@@ -8,21 +8,21 @@ const collectionItems = [
     title: "Porsche × Cyberpunk 2077",
     description: "Experience the fusion of classic Porsche design with Night City's cyberpunk aesthetic",
     price: "$149",
-    image: "/assets/images/6aa71b042c92f885fe6999e17fe14164_19c16a250d3a4c28ed07494587ee0bd8.jpg"
+    image: "/CDP/assets/images/6aa71b042c92f885fe6999e17fe14164_19c16a250d3a4c28ed07494587ee0bd8.jpg"
   },
   {
     id: 2,
     title: "Porsche  × Displate",
     description: "The electric future meets the digital realm in this stunning metal piece",
     price: "$149",
-    image: "/assets/images/6ac300a3ebf813461fe7e4ac7641de53_1365ae901646677b017d08ca34650c55.jpg"
+    image: "/CDP/assets/images/6ac300a3ebf813461fe7e4ac7641de53_1365ae901646677b017d08ca34650c55.jpg"
   },
   {
     id: 3,
     title: "Displate × Cyberpunk 2077",
     description: "A certified collectible",
     price: "$149",
-    image: "/assets/images/limited_certificate.webp"
+    image: "/CDP/assets/images/limited_certificate.webp"
   }
 ];
 
@@ -42,11 +42,11 @@ function App() {
       <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
         <nav className="nav-container">
           <div className="logo-container">
-            <img src="/assets/logos/Porsche_Logo.svg" alt="Porsche" className="logo" />
+            <img src="/CDP/assets/logos/Porsche_Logo.svg" alt="Porsche" className="logo" />
             <span className="collaboration-text">×</span>
-            <img src="/assets/logos/Displate_logo.svg" alt="Displate" className="logo" />
+            <img src="/CDP/assets/logos/Displate_logo.svg" alt="Displate" className="logo" />
             <span className="collaboration-text">×</span>
-            <img src="/assets/logos/Cyberpunk_2077_logo.svg" alt="Cyberpunk 2077" className="logo" />
+            <img src="/CDP/assets/logos/Cyberpunk_2077_logo.svg" alt="Cyberpunk 2077" className="logo" />
           </div>
           <div className="nav-links">
             <a href="#collection">Collection</a>
@@ -67,7 +67,7 @@ function App() {
               playsInline
               className="hero-video"
             >
-              <source src="/assets/videos/hero-video.mp4" type="video/mp4" />
+              <source src="/CDP/assets/videos/hero-video.mp4" type="video/mp4" />
             </video>
             <div className="hero-overlay"></div>
           </div>
@@ -126,9 +126,9 @@ function App() {
             <a href="#gallery">Gallery</a>
           </div>
           <div className="footer-logos">
-            <img src="/assets/logos/Porsche_Logo.svg" alt="Porsche" />
-            <img src="/assets/logos/Displate_logo.svg" alt="Displate" />
-            <img src="/assets/logos/Cyberpunk_2077_logo.svg" alt="Cyberpunk 2077" />
+            <img src="/CDP/assets/logos/Porsche_Logo.svg" alt="Porsche" />
+            <img src="/CDP/assets/logos/Displate_logo.svg" alt="Displate" />
+            <img src="/CDP/assets/logos/Cyberpunk_2077_logo.svg" alt="Cyberpunk 2077" />
           </div>
         </div>
       </footer>
