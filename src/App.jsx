@@ -103,11 +103,15 @@ function App() {
         <section id="gallery" className="gallery">
           <h2>Gallery</h2>
           <div className="gallery-grid">
-            {collectionItems.map(item => (
-              <div key={item.id} className="gallery-item">
-                <img src={item.image} alt={item.title} />
-              </div>
-            ))}
+            <div className="gallery-item">
+              <img src="/CDP/assets/images/Gallery/add24fe7a9c7345a1c9a9db44a6fe945_7b32b423d749ef131ab4916d8b78a27a.jpg" alt="Gallery image 1" />
+            </div>
+            <div className="gallery-item">
+              <img src="/CDP/assets/images/Gallery/7860628cc9fa9817167867963e2a5b61_834322bb0b7e9bff718af67a324ea08d.jpg" alt="Gallery image 2" />
+            </div>
+            <div className="gallery-item">
+              <img src="/CDP/assets/images/Gallery/6c44b1f90addd2ffb169e8bf1ada0ecf_cd212e3bacc61af9aef00f82cdb7a158.jpg" alt="Gallery image 3" />
+            </div>
           </div>
         </section>
 
